@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color:rgb(0, 0, 0);
+    background-size: cover;
+    box-shadow: 5px 10px;
+}
+.glass-container{
+    width: 600px;
+    height: 350px;
+    position : relative;
+    background: rgb(166, 220, 235);
+   border-radius: 10px;
+   border: 1px solid;
+}
+.login-box {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+h2 {
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+input {
+    padding: 10px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid ;
+    color: black;
+    font-size: 13px;
+}
+input::placeholder {
+    color: black;
+}
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: black;
+}
+.options a {
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+button {
+    background: rgb(149, 136, 181);
+    box-shadow: 0 0 5px 5px rgb(90, 80, 113);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px ;
+    cursor: pointer;
+    margin-top: 15px;
+}
+button:hover {
+    background:rgb(20, 1, 28);
+    color: white;
+    outline: 1px solid ;
+}
+p{
+ background: transparent;   
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: black;
+ outline: 1px none ;
+ border: none;
+}
+
+input, select, textarea{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(149, 136, 181);
+
+}
+
